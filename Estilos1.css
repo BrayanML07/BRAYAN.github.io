@@ -1,0 +1,21 @@
+h2 {
+    font-size: 60px;
+    color: rgb(23, 35, 139);
+    background-color: brown;
+    
+}
+  .textomorado {
+    color: blueviolet;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+  .ClaseContenedorDiv1 {
+    font-size: 40px;
+    width: 1200;
+    height: 600px;
+    background-color: crimson;
+  }
+  #fondonaranja {
+    background-color: darkseagreen;
+    
+  }
