@@ -118,17 +118,17 @@ position: relative;
 }
 
 .clase_fixed {
-  height: 320px;
-  width: 300px;
+  height: 500px;
+  width: 500px;
   position: fixed;
-  left: 520px;
-  bottom: 150px;
+  left: 680px;
+  bottom: 220px;
   z-index: -10;
 
 }
 
 .marca_agua {
-  opacity: 0.5;
+  opacity: 0.2;
   pointer-events: none;
   z-index: 10;
 
@@ -143,6 +143,59 @@ position: relative;
   
 }
 
+.bloque {           /* estilo display por defecto */
+  background-color: bisque;
+  font-size: 20px;
+  margin: 20px;
+  color: darkkhaki;
+}
+
+.tipoinlineblock {  /* estilo display inline-block */
+  background-color: coral;
+  font-size: 30px;
+  margin: 10px;
+  color: aquamarine;
+  display: inline-block;
+  width: 500px;
+
+}
+
+.enlinea {         /* estilo display inline */
+  background-color: crimson;
+  display: inline;
+  font-size: 30px;
+  margin: 2px;
+  color: beige;
+  width: 80px;
+  height: 40px;
+
+}
+
+.tiponone {  /* estilo display none */
+ background-color: bisque;
+ font-size: 20px;
+ margin: 20px;
+ color: hotpink;
+ display: none;
+
+}
+
+.tipohidden {
+  background-color: rgb(28, 85, 47);
+  font-size: 20px;
+  margin: 20px;
+  color: rgb(10, 58, 112);
+  visibility: hidden;
+ 
+}
+
+.tipoflex {
+  display: flex;
+  background-color: rgb(189, 190, 102);
+  align-items: center;
+  justify-content: space-between;
+  
+}
 
 
 
