@@ -197,5 +197,15 @@ position: relative;
   
 }
 
+.claseNav {
+  background-color: darkred;
+  font-size: 30PX;
+  padding-inline: 0px;
+  color: azure;
+  display: inline;
+  list-style-type: none;
+
+}
+
 
 
