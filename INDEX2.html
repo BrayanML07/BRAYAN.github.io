@@ -4,6 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Estilos1.css">
+
+    <script type="text/javascript" src="SCRIPT1.js"> 
+
+
+
+    </script>
     
     <title> Instituto Certus</title>
 </head>
@@ -236,7 +242,7 @@ las doscientas millas, de conformidad con la ley y
 
   <img class="clase_fixed ; marca_agua"
      style="border:9px double ; color:rgb(110, 0, 0)"
-      src="C:\Users\LAB03-NORTE\Documents\BRAYAN.github.io\Imagenes\EscudoAOT2.png" 
+      src="C:\Users\LAB08-NORTE\Documents\BRAYAN.github.io\Imagenes\EscudoAOT2.png" 
              alt="IMAGEN NO DISPONIBLE"
       width="400"       height="341"      >
   </div>
@@ -247,7 +253,7 @@ las doscientas millas, de conformidad con la ley y
 
   <img class="clase_sticky"
      style="border:9px double ; color:rgb(110, 0, 0)"
-      src="C:\Users\LAB03-NORTE\Documents\BRAYAN.github.io\Imagenes\FreddyMEME.jpg" 
+      src="C:\Users\LAB08-NORTE\Documents\BRAYAN.github.io\Imagenes\FreddyMEME.jpg" 
              alt="IMAGEN NO DISPONIBLE"
       width="400"       height="341"      >
   
@@ -332,7 +338,7 @@ las doscientas millas, de conformidad con la ley y
   <label > DATOS PERSONALES</label>
   <br>
   
-  <p><label for="nombre">  NOMBRE: <input type="text" id="nombre" autofocus required style="font-size:25px ;">      </label> </p> 
+  <p><label for="nombre">  NOMBRE: <input type="text" id="nombre" autofocus style="font-size:25px ;">      </label> </p> 
   <p><label   for="apellido"> APELLIDO: <input type="text " id="apellido" style="font-size:25px" > </label> </p>
   <p><label   for="edad"> EDAD: <input type="text " id="edad" min="18" max="80" style="font-size:25px"> </label> </p>
   <p><label   for="observacion"> OBSERVACION:    <textarea  id="observacion"   
@@ -394,7 +400,7 @@ las doscientas millas, de conformidad con la ley y
 
     <br>
     <label for="email"> Ingrese EMAIL: 
-      <input style="font-size:25px" type="email" name="correo" id="email" placeholder="12345678@certus.edu.pe">
+      <input style="font-size:25px" type="email" name="correo" id="email" placeholder="12345678@certus.edu.pe" >
   </label>
 
 
@@ -404,8 +410,44 @@ las doscientas millas, de conformidad con la ley y
    <br>
    <button type="submit" style="font-size:30px ;" > Enviar </button>
 
-            
+  
+  <div style="font-size: 30px;"> Contenedor Resultado en Java Script
+    <div id="resultado" style="font-size: 30px;">
+      <p> Operacion Suma </p>
+    </div>
+  </div>
+  
+  <script>
 
+   window.alert("Bienvenidos"); //comano de windows
+   /* javascript acepta los 2 tipos de comentarios */
+   document.write("<br> <br> <br> Fin de Pagina")
+
+   var valor1 = 50;
+   var valor2 = 50;
+   var suma = valor1 + valor2;
+   var resta = valor1 - valor2;
+
+   /* Corregir en casa (personal) */
+   console.log("el valor de la suma de ",valor1,"con",valor2,"es : ",suma);
+   console.log("El valor de la resta de ",valor1,"con",valor2,"es :",resta);
+   document.getElementById('resultado').innerHTML=
+   " <br> El Valor de la suma es " +valor1+ "con" +valor2+ "es :" +suma+ "<br>"
+    + "El Valor de la resta es " +valor1+ "con" +valor2+ "es :" +resta+
+
+   </script>   
+
+<section>
+ <h1 style="font-size: 40px;"> Manipulacion del DOM </h1>
+ <p id="ejmDOM1" style="font-size: 25px;"> 
+  Este es un Texto incial a aplicar DOM
+ </p>
+
+ <button style="font-size: 25px;" 
+  onclick="FCambioColor()"> Cambio de Color 
+ </button>
+
+</section>
 
         
 
